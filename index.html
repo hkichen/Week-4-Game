@@ -4,24 +4,36 @@
     <title>Gem Game</title>
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 </head>
 <body>
-    <h1>Number to Guess: <span id="number-to-guess"></span></h1>
-    <div id="crystals">
-        <img class="crystal-image" src="assets/images/gemBlue.png">
-        <img class="crystal-image" src="assets/images/gemMulti.png">
-        <img class="crystal-image" src="assets/images/gemRed.png">
-        <img class="crystal-image" src="assets/images/gemPurple.png">
-    </div>
-    <div class="yourCounter">
-        <h2 id="counter">Your Total is: <span id="yourCounter"></span></h2>
-    </div>
-    <div class="score">
-        <h2 id="wins">Wins: <span id="winCount"></span></h2>
-        <h2 id="losses">Losses: <span id="lossCount"></span></h2>
-    </div>
+    <header>Gem Collector</header>
+    <div class="content">
+        <div class="instructions">
+                You are given a target score.<br>
+                Click on the gems to increase your score.<br>
+                Good Luck!
+        </div>
+        
+        <h1>Target Score: <span id="number-to-guess"></span></h1>
+        <div id="crystals">
+            <img id ="gemBlue" class="crystal-image" src="assets/images/gemBlue.png" value="">
+            <img id="gemMulti" class="crystal-image" src="assets/images/gemMulti.png" value="">
+            <img id="gemRed" class="crystal-image" src="assets/images/gemRed.png" value="">
+            <img id="gemPurple" class="crystal-image" src="assets/images/gemPurple.png" value="">
+        </div>
+        <div class="yourCounter">
+            <h2 id="counter">Your Total is: <span id="yourCounter"></span></h2>
+        </div>
+        <div class="score">
+            <h2 id="wins">Wins: <span id="winCount"></span></h2>
+            <h2 id="losses">Losses: <span id="lossCount"></span></h2>
+        </div>    
+    </div>    
+    
     <footer>Copyright © Lina Kichen 2018<br> </footer>
+    
     <script type="text/javascript" src="assets/javascript/game.js"></script>
 </body>
 </html>

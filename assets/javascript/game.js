@@ -17,13 +17,23 @@ var losses = 0;
         
     //assign data-value to each image with random numbers between 1 and 12
     for (var i = 0; i < randoms.length; i++) {
-        var imageCrystal = $(".crystal-image");
-        imageCrystal.attr("data-crystalvalue", randoms[i]);
+        var gemBlue = $("#gemBlue")
+            gemBlue.attr("value", randoms[0]);
+            console.log(gemBlue);
+        var gemMulti = $("#gemMulti") 
+            gemMulti.attr("value", randoms[1]);
+            console.log(gemMulti);
+        var gemRed = $("#gemRed") 
+            gemRed.attr("value", randoms[2]);
+            console.log(gemRed);
+        var gemPurple = $("#gemPurple") 
+            gemPurple.attr("value", randoms[3]);
+            console.log(gemPurple);
     }
 
 //make win, loss and game reset        
     crystals.on("click", ".crystal-image", function() {
-        var crystalValue = ($(this).attr("data-crystalvalue"));
+        var crystalValue = ($(this).attr("value"));
         crystalValue = parseInt(crystalValue);
         counter += crystalValue;
         $("#yourCounter").text(counter);

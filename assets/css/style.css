@@ -1,0 +1,43 @@
+body {
+    background-image: url(../images/ice_age.png);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+header {
+    background: #525252;
+    height: 100px;
+    color: #fff;
+    font-size: 45px;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.content {
+    margin: 0 auto;
+    width: 640px;
+}
+
+.instructions {
+    font-size: 30px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.crystal-image {
+    margin: 20px 10px 20px 10px;
+}
+
+h1, .yourCounter, .score {
+    font-size:35px;
+    margin-bottom: 25px;
+}
+
+footer {
+    background: #525252;
+    width: 100%;
+    height: 150px;
+    color: #fff;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
