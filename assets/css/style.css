@@ -35,9 +35,13 @@ h1, .yourCounter, .score {
 footer {
     background: #525252;
     width: 100%;
-    height: 150px;
+    height: 60px;
     color: #fff;
     position: fixed;
     left: 0;
     bottom: 0;
+    font-size: 25px;
+    padding-top: 70px;
+    padding-left: 30px;
+
 }

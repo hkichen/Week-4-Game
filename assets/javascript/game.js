@@ -1,7 +1,7 @@
 var wins = 0;
 var losses = 0;
 
-//generate a random number between 19 and 120
+    //generate a random number between 19 and 120
      var targetNumber = Math.floor(Math.random()*101)+19;
     $("#number-to-guess").text(targetNumber);
     var crystals = $("#crystals");
