@@ -9,7 +9,7 @@ header {
     color: #fff;
     font-size: 45px;
     padding-top: 30px;
-    padding-left: 30px;
+    text-align: center;
 }
 
 .content {
@@ -42,6 +42,6 @@ footer {
     bottom: 0;
     font-size: 25px;
     padding-top: 70px;
-    padding-left: 30px;
+    text-align: center;
 
 }
