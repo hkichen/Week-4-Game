@@ -19,8 +19,11 @@ header {
 
 .instructions {
     font-size: 30px;
+    text-align: justify;
     margin-top: 25px;
     margin-bottom: 25px;
+    line-height: 1.5;
+    font-family: Cambria;
 }
 
 .crystal-image {
@@ -30,7 +33,10 @@ header {
 h1, .yourCounter, .score {
     font-size:35px;
     margin-bottom: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 }
+
 
 footer {
     background: #525252;
@@ -40,8 +46,7 @@ footer {
     position: fixed;
     left: 0;
     bottom: 0;
-    font-size: 25px;
+    font-size: 15px;
     padding-top: 70px;
     text-align: center;
-
 }
